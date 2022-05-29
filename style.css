@@ -1,11 +1,11 @@
 /* Basic Style */
-body {
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
   }
   
-   {
+  .header {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -26,7 +26,7 @@ body {
     }
   }
   
-  .aaa {
+  .main {
     display: block;
     width: 500px;
     margin: 0 auto 0;

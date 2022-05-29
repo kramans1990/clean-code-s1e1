@@ -1,11 +1,11 @@
 /* Basic Style */
-.page {
+body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
   }
   
-  .header {
+   {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -26,7 +26,7 @@
     }
   }
   
-  .main {
+  .aaa {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -168,4 +168,13 @@
   /* Edit Task */
   ul li input[type=text] {
     display:none
+  }
+  
+  .edit-mode .text-input {
+    display:inline-block;
+    width:224px;
+  }
+  
+  ul li.edit-mode label {
+    display:none;
   }

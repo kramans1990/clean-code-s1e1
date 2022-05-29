@@ -32,9 +32,10 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
     deleteButtonImg.className = "button-image";
+    deleteButtonImg.setAttribute('alt', '');
     label.innerText=taskString;
     label.className='task';
-
+    
     //Each elements, needs appending
     checkBox.type="checkbox";
     editInput.type="text";
